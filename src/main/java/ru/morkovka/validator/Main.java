@@ -37,7 +37,7 @@ public class Main {
 
     private static boolean isActiveFullErrorLogging = true;
 
-    private static boolean isActiveValidFilesCopying = true;
+    private static boolean isActiveValidFilesCopying = false;
 
     private static Logger logger;
 
@@ -48,7 +48,7 @@ public class Main {
      *             arg[0] - path to xsd scheme, required param, string
      *             arg[1] - absolute path to validated xml files, required param, string
      *             arg[2] - flag to enable logging of all errors, optional param, boolean, defaults to true
-     *             arg[3] - flag to enable copying valid files to "valid" directory, optional param, boolean, defaults to true
+     *             arg[3] - flag to enable copying valid files to "valid" directory, optional param, boolean, defaults to false
      */
     public static void main(String[] args) {
 
@@ -73,7 +73,7 @@ public class Main {
                     "arg[0] - absolute path to xsd scheme, required param, string\n" +
                     "arg[1] - absolute path to validated xml files, required param, string\n" +
                     "arg[2] - flag to enable logging of all errors, optional param, boolean, defaults to true\n" +
-                    "arg[3] - flag to enable copying valid files to \"valid\" directory, optional param, boolean, defaults to true\n");
+                    "arg[3] - flag to enable copying valid files to \"valid\" directory, optional param, boolean, defaults to false\n");
             return;
         }
 
