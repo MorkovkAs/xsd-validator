@@ -1,0 +1,9 @@
+.idea/
+out/
+src/main/resources/schemas_4_0/
+src/main/resources/xmls/
+target/
+/xsd-validator.iml
+/log.txt.0
+/log.txt.1
+/log.txt.2
